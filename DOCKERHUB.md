@@ -143,3 +143,7 @@ await page.getByRole('button', { name: 'Sign in' }).click()
 - Refresh tokens, `client_credentials`, `userinfo` and logout.
 - More than one client.
 - `plain` PKCE or flows without PKCE.
+
+## License
+
+[MIT](https://github.com/curroya/oauth2-mock/blob/main/LICENSE)
