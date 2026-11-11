@@ -7,7 +7,6 @@ yanked = "deny"
 unused-ignored-advisory = "deny"
 ignore = [
   { id = "RUSTSEC-2023-0071", reason = "rsa has no fixed release; the mock signs ID tokens with a key derived from a public seed, so a timing attack recovers nothing secret; review by 2027-01-29" },
-  { id = "RUSTSEC-2026-0387", reason = "crypto-bigint 0.5 comes only through openidconnect 4, a dev-dependency the tests use as the client; nothing in the shipped binary links it; review by 2027-01-29" },
 ]
 
 [sources]
