@@ -188,3 +188,7 @@ Commit messages follow [Conventional Commits](https://www.conventionalcommits.or
 | `!:` or `BREAKING CHANGE:` | Major | `feat!: drop USERS_FILE` |
 | `feat:` or `feat(<scope>):` | Minor | `feat(token): issue refresh tokens` |
 | Anything else | Patch | `fix: reject an empty login_hint` |
+
+## License
+
+[MIT](LICENSE)
